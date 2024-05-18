@@ -1,12 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Vault from "./componets/Vault";
+import New from "./componets/New";
+import Todo from "./componets/Todo";
+
 
 function App() {
   return (
     <div className="App">
       <>
-        <Vault />
+        <New/>
+        <Todo/>
       </>
     </div>
   );
